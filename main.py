@@ -1,6 +1,6 @@
 import os
 
-LINE = "You opened me 14 times after midnight and ate nothing. The yogurt expired two Tuesdays ago; I kept the light on for you anyway."
+LINE = "You opened me 14 times after midnight and ate nothing. The yogurt expired two Tuesdays ago; I kept the light on. You're welcome."
 
 def main():
     out = os.environ.get("ENTRY_OUTPUT", "/output/entry.txt")
